@@ -29,7 +29,7 @@ const saveBook = (req, res, next) => {
     publicationYear: 'required|integer',
     Genre: 'string',
     Pages: 'integer',
-    userRating: 'integer'
+    userRating: 'numeric'
   };
   validator(req.body, validationRule, {}, (err, status) => {
     if (!status) {

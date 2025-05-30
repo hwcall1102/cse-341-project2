@@ -1,5 +1,5 @@
 {
-  "name": "cse-341-project1",
+  "name": "cse-341-project2",
   "version": "1.0.0",
   "description": "My First Project",
   "main": "server.js",
@@ -8,20 +8,24 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hwcall1102/cse-341-project1.git"
+    "url": "git+https://github.com/hwcall1102/cse-341-project2.git"
   },
   "keywords": [],
   "author": "Hayden Call",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/hwcall1102/cse-341-project1/issues"
+    "url": "https://github.com/hwcall1102/cse-341-project2/issues"
   },
-  "homepage": "https://github.com/hwcall1102/cse-341-project1#readme",
+  "homepage": "https://github.com/hwcall1102/cse-341-project2#readme",
   "dependencies": {
     "body-parser": "^2.2.0",
+    "cors": "^2.8.5",
     "dotenv": "^16.5.0",
     "express": "^5.1.0",
+    "express-session": "^1.18.1",
     "mongodb": "^6.16.0",
+    "passport": "^0.7.0",
+    "passport-github2": "^0.1.12",
     "swagger-autogen": "^2.23.7",
     "swagger-ui-express": "^5.0.1",
     "validatorjs": "^3.22.1"
